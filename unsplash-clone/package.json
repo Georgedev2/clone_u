@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "server": "node server.js",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "vercel-build":"echo hello"
   },
   "dependencies": {
+    "express": "^4.21.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
